@@ -8,7 +8,12 @@
 
 
 
-| **HALAMAN DATA (APK)** | **FIRESTORE DATABASE** |
-|------------------------|------------------------|
-| <img src="https://github.com/user-attachments/assets/c53db13a-7139-4a09-990b-a1d8594c717f" alt="Halaman Data APK" width="400"/> | <img src="https://github.com/user-attachments/assets/735903e0-f4e1-4d60-998c-3074aa6923c1" alt="Firestore Database" width="400"/> |
+| **HALAMAN DATA (APK)** | 
+|------------------------|
+| <img src="https://github.com/user-attachments/assets/c53db13a-7139-4a09-990b-a1d8594c717f" alt="Halaman Data APK" width="300"/> |
 
+
+| **FIRESTORE DATABASE** | 
+|------------------------|
+| <img width="1827" height="865" alt="Screenshot 2026-01-05 093158" src="https://github.com/user-attachments/assets/df891231-1dad-4698-ace8-b88d3fb34c66" />
+ |
