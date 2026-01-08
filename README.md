@@ -13,7 +13,7 @@
 
 | **HALAMAN DATA (APK)** | 
 |------------------------|
-| <img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/3e87c33c-9c0f-4fe5-85b5-9e8aaeb4f4ff" />
+| <img width="300"  alt="image" src="https://github.com/user-attachments/assets/3e87c33c-9c0f-4fe5-85b5-9e8aaeb4f4ff" />
  |
 
 
