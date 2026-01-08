@@ -4,10 +4,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.example.myfirebase.modeldata.DetailSiswa
 import com.example.myfirebase.modeldata.UIStateSiswa
 import com.example.myfirebase.modeldata.toDataSiswa
 import com.example.myfirebase.repositori.RepositorySiswa
+import kotlinx.coroutines.launch
 
 class EntryViewModel(
     private val repositorySiswa: RepositorySiswa
@@ -36,11 +38,13 @@ class EntryViewModel(
     }
 
     /* Fungsi untuk menyimpan data yang di-entry */
-    suspend fun addSiswa() {
-        if (validasiInput()) {
-            repositorySiswa.postDataSiswa(
-                uiStateSiswa.detailSiswa.toDataSiswa()
-            )
+    fun addSiswa() {
+        viewModelScope.launch {
+            if (validasiInput()) {
+                repositorySiswa.postDataSiswa(
+                    uiStateSiswa.detailSiswa.toDataSiswa()
+                )
+            }
         }
     }
 }
